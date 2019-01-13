@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import logo from '../images/minilogo.jpg'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
-        </div>
+            <img src={logo} alt="Logo" />
+            </div>
         <div className="content">
             <div className="inner">
                 <h1>Peace of the East</h1>
