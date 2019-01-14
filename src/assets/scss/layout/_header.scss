@@ -55,6 +55,8 @@
 			border-radius: 100%;
 
 			.icon {
+				height: 100%;
+				//padding: 2px;
 				&:before {
 					font-size: 2rem;
 				}
@@ -75,7 +77,7 @@
 					'opacity #{_duration(article)} ease-in-out'
 				));
 				@include vendor('transition-delay', '0.25s');
-				padding: 3rem 2rem;
+				//padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
 
@@ -114,7 +116,7 @@
 						min-width: 7.5rem;
 						height: 2.75rem;
 						line-height: 2.75rem;
-						padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
+						//padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
 						text-transform: uppercase;
 						letter-spacing: _font(letter-spacing);
 						font-size: 0.8rem;
@@ -210,8 +212,11 @@
 
 			.content {
 				.inner {
-					padding: 2.5rem 1rem;
-				}
+					//padding: 2.5rem 1rem;
+					img {
+						width: 100%;
+					}
+			}
 
 				p {
 					line-height: 1.875;
@@ -220,11 +225,11 @@
 		}
 
 		@include breakpoint(xsmall) {
-			padding: 1.5rem 0;
+			//padding: 1.5rem 0;
 
 			.content {
 				.inner {
-					padding: 2.5rem 0;
+					//padding: 2.5rem 0;
 				}
 			}
 

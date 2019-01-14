@@ -1,17 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import logo from '../images/minilogo2.png'
-
+import logo from '../images/small-logo.png'
+import title from '../images/poe-title.jpg'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo" className="icon"/>
             </div>
         <div className="content">
             <div className="inner">
-                <h1>Peace of the East</h1>
-                <p>Born in Vietnam, Bread in the UK.</p>
+              <img src={title} className="inner"/>
+
             </div>
         </div>
         <nav>
