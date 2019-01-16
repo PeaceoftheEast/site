@@ -32,7 +32,7 @@
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
-				left: calc(50% - #{_size(border-width) * 1});
+				left: calc(50% - #{_size(border-width) * 0.5});
 				width: _size(border-width);
 				height: calc(3.5rem + 1px);
 				background: _palette(border);
@@ -55,9 +55,8 @@
 			border-radius: 100%;
 
 			.icon {
-				height: 100%;
-				//padding: 2px;
-				&:before {
+              height: 100%;
+              &:before {
 					font-size: 2rem;
 				}
 			}
@@ -77,12 +76,16 @@
 					'opacity #{_duration(article)} ease-in-out'
 				));
 				@include vendor('transition-delay', '0.25s');
-				//padding: 3rem 2rem;
+				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
 
 				> :last-child {
 					margin-bottom: 0;
+				}
+
+				h1 {
+					color: #c43d00;
 				}
 			}
 
@@ -212,11 +215,8 @@
 
 			.content {
 				.inner {
-					//padding: 2.5rem 1rem;
-					img {
-						width: 100%;
-					}
-			}
+					padding: 2.5rem 1rem;
+				}
 
 				p {
 					line-height: 1.875;
@@ -225,11 +225,11 @@
 		}
 
 		@include breakpoint(xsmall) {
-			//padding: 1.5rem 0;
+			padding: 1.5rem 0;
 
 			.content {
 				.inner {
-					//padding: 2.5rem 0;
+					padding: 2.5rem 0;
 				}
 			}
 

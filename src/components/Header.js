@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import logo from '../images/small-logo.png'
-import title from '../images/poe-title.jpg'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -10,8 +9,8 @@ const Header = (props) => (
             </div>
         <div className="content">
             <div className="inner">
-              <img src={title} className="inner"/>
-
+                <h1>Peace of the East</h1>
+                <p>Born in Vietnam, Bread in the UK.</p>
             </div>
         </div>
         <nav>
