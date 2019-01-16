@@ -32,7 +32,7 @@
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
-				left: calc(50% - #{_size(border-width) * 1});
+				left: calc(50% - #{_size(border-width) * 0.5});
 				width: _size(border-width);
 				height: calc(3.5rem + 1px);
 				background: _palette(border);
@@ -55,7 +55,8 @@
 			border-radius: 100%;
 
 			.icon {
-				&:before {
+              height: 100%;
+              &:before {
 					font-size: 2rem;
 				}
 			}
@@ -81,6 +82,10 @@
 
 				> :last-child {
 					margin-bottom: 0;
+				}
+
+				h1 {
+					color: #c43d00;
 				}
 			}
 
@@ -114,7 +119,7 @@
 						min-width: 7.5rem;
 						height: 2.75rem;
 						line-height: 2.75rem;
-						padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
+						//padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
 						text-transform: uppercase;
 						letter-spacing: _font(letter-spacing);
 						font-size: 0.8rem;
