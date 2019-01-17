@@ -27,6 +27,8 @@ const Header = (props) => (
     </header>
 )
 
+import logo from '../images/ncass.png'
+
 Header.propTypes = {
     onOpenArticle: PropTypes.func,
     timeout: PropTypes.bool
