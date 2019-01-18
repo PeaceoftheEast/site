@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 
-import logo from '../images/small-logo.png'
+import logo from '../images/icon-ico.png'
 
 
 const Header = (props) => (
@@ -27,7 +27,6 @@ const Header = (props) => (
     </header>
 )
 
-import logo from '../images/ncass.png'
 
 Header.propTypes = {
     onOpenArticle: PropTypes.func,

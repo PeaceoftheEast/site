@@ -55,7 +55,8 @@
 			border-radius: 100%;
 
 			.icon {
-              height: 100%;
+				padding: 5px;
+              width: 100%;
               &:before {
 					font-size: 2rem;
 				}
@@ -116,13 +117,13 @@
 
 					a {
 						display: block;
-						min-width: 10.5rem;
+						min-width: 11rem;
 						height: 3.75rem;
 						line-height: 3.75rem;
 						//padding: 0 2.25rem 0 (2.25rem + _font(letter-spacing));
 						text-transform: uppercase;
 						letter-spacing: _font(letter-spacing);
-						font-size: 2.5rem;
+						font-size: 1.5rem;
 						border-bottom: 0;
 
 						&:hover {
@@ -229,7 +230,7 @@
 
 			.content {
 				.inner {
-					padding: 2.5rem 0;
+					padding: 1rem 0;
 				}
 			}
 

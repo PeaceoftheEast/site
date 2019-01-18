@@ -7,6 +7,8 @@
 /* Footer */
 
 	#footer {
+		display: flex;
+		flex-direction: column;
 		@include vendor('transition', (
 			'transform #{_duration(article)} ease-in-out',
 			'filter #{_duration(article)} ease-in-out',
@@ -16,6 +18,14 @@
 		max-width: 100%;
 		margin-top: 2rem;
 		text-align: center;
+
+		.ncass {
+			align-self: center;
+			width: 80px;
+			img {
+				width: 100%;
+			}
+		}
 
 		.copyright {
 			letter-spacing: _font(letter-spacing);
