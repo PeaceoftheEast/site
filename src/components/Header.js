@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 
-import logo from '../images/icon-ico.png'
+import logo from '../images/orange-icon.png'
 
 
 const Header = (props) => (
