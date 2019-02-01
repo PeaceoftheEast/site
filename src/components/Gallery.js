@@ -3,12 +3,15 @@
  */
 import React from 'react';
 import pic03 from '../images/pic03.jpg'
+import banhMi from '../images/banhmibackground.jpg';
+import ImageSpinner from './ImageSpinner';
 
 const Gallery = () => {
+  let images = [pic03, banhMi];
   return (
     <div>
       <h2 className="major">Gallery</h2>
-      <span className="image main"><img src={pic03} alt="" /></span>
+      <ImageSpinner images={images} />
     </div>
   )
 };

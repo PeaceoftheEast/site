@@ -1,0 +1,35 @@
+
+.image-spinner {
+  display: grid;
+  height: 100%;
+  grid-template-areas: '. image .'
+                       'nav-left image nav-right'
+                        '. image .';
+
+  grid-template-rows: 40% auto 40%;
+  grid-template-columns: 5% auto 5%;
+
+  .left-arrow {
+    grid-area: nav-left;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .right-arrow {
+    grid-area: nav-right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .image {
+    grid-area: image;
+
+    img {
+      width: 100%;
+    }
+  }
+
+
+}
