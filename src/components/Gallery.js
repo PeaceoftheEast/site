@@ -6,9 +6,11 @@ import pic03 from '../images/pic03.jpg'
 import banhMi from '../images/banhmibackground.jpg';
 import ImageSpinner from './ImageSpinner';
 import prawn from '../images/gallery/prawn3.jpg';
+import lemongrassFries from '../images/gallery/lemongrass-chicken-fries.jpg';
+import tofuBanhMi from '../images/gallery/tofu-banh-mi.jpg';
 
 const Gallery = () => {
-  let images = [pic03, banhMi, prawn];
+  let images = [tofuBanhMi, lemongrassFries, prawn, banhMi];
   return (
     <div>
       <h2 className="major">Gallery</h2>

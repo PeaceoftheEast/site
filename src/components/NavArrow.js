@@ -3,9 +3,11 @@
  */
 import React from 'react';
 
-const NavArrow = ({onClick, style}) => {
+const NavArrow = ({onClick, style, iconName}) => {
   return (
-    <div className={style} onClick={onClick}/>
+    <div className={style} onClick={onClick}>
+      <i className={iconName}/>
+    </div>
   )
 };
 
