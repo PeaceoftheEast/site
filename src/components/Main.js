@@ -5,7 +5,7 @@ import MediaIcons from './MediaIcons';
 import Gallery from './Gallery';
 
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import unitDesign from '../images/unit-design.jpg'
 
 class Main extends React.Component {
   render() {
@@ -25,7 +25,7 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Food</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
+          <span className="image main"><img src={unitDesign} alt="" /></span>
           <p>At Peace of the East, the inspiration for our banh mi comes from sampling the best flavours and spices from the East. Our perfect sandwich enables party goers to grab something both delicious and nutritious to keep energy levels up. At Peace of the East we know that Monday morning feeling when you think that a health kick needs to start, but why wait, swap your banh mi for our seasoned rice for those healthier heads on the field. Perhaps you're feeling really naughty, take a real twist and bed your munch on some of our freshly cooked crispy fries. We really do aim to please the masses. All come with our signature pickled slaw and sriracha aiolli to really put that icing on the cake.</p>
           <p>Our footprint is at the forefront of our minds when it comes to catering. All our food is both ethically and sustainably sourced, from local suppliers where possible. We also strive to be plastic-free, therefore all our packaging is both plastic free and biodegradable. We also recycle all possible packaging that our that our goods are supplied in, and recycle all of our cooking oil used, giving planet earth that much needed hug back. </p>
           {close}
