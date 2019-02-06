@@ -6,6 +6,7 @@ import Gallery from './Gallery';
 
 import pic01 from '../images/pic01.jpg'
 import unitDesign from '../images/unit-design-2.png'
+import viethead from '../images/viet-face.png'
 
 class Main extends React.Component {
   render() {
@@ -17,7 +18,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About Us</h2>
-          <span className="image main"><img src={pic01} alt="" /></span>
+          <span className="image main"><img src={viethead} alt="" /></span>
           <p>Lifelong friends, myself and Will (a.k.a. Snipadvisor - we'll get to that!) have been fellow festival goers and keen foodies for as long as we can remember. Taking regular, and much-needed breaks from getting down to our favourite beats, the hunt for the perfect treat to refuel would commence. Party goers turned food critics we scour the whole festival site, sometimes several times until we find the perfect staple. Sitting down to sample the delights for what the finest traders have to offer we would reminisce about our past faves and the not so's, often flicking through the pictures of the traders we'd loved for their food in the past or just because they look so damn cool!</p>
           <p>Festival season DONE, that's it for another year. I don't think so!. Meeting up at our houses, it's time to recreate and reinvent our favourite street food. Discussions long into the night into what food the scene is missing. After a lengthy trip to Vietnam Will, or  now known as the Snipadvisor, for his awesomely detailed account of his time there on the banh mi trail. It was now obvious what was missing. After sampling and re-sampling,  we pulled the legendarily identifiable street food back into the 21st century, seeking out the best breads and finest ingredients, alas, we had reached our holy grail. The perfect banh mi.</p>
           {close}
