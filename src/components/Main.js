@@ -5,7 +5,7 @@ import MediaIcons from './MediaIcons';
 import Gallery from './Gallery';
 
 import pic01 from '../images/pic01.jpg'
-import unitDesign from '../images/unit-design.png'
+import unitDesign from '../images/unit-design-2.png'
 
 class Main extends React.Component {
   render() {
