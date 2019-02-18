@@ -20,7 +20,7 @@ class Main extends React.Component {
           <h2 className="major">About Us</h2>
           <span className="image main"><img src={viethead} alt="" /></span>
           <p>Lifelong friends, myself and Will (a.k.a. Snipadvisor - we'll get to that!) have been fellow festival goers and keen foodies for as long as we can remember. </p>
-          <p>During much-needed breaks from getting down to our favourite beats, the hunt for the perfect treat to 'refuel'. Party goers turned food critics we scour the whole festival site, until we find the 'perfect munch'. Sitting down to sample the finest traders have to offer, we'd reminisce about our past favourites, whilst flicking through the pictures of the traders we loved for their food, or just because they look so damn cool!</p>
+          <p>During much-needed breaks from getting down to our favourite beats, the hunt for the perfect treat to 'refuel'. Party goers turned food critics, we scour the whole festival site until we find the 'perfect munch'. Sitting down to sample the finest traders have to offer, we'd reminisce about our past favourites, whilst flicking through the pictures of the traders we loved for their food, or just because they look so damn cool!</p>
           <p>Festival season DONE- that's it for another year- I don't think so! It's time to recreate and reinvent our favourites. Discussions about what the food scene is missing would go long into the night. After a lengthy trip to Vietnam, Will, now known as the Snipadvisor recounted in awesome detail, his time there on the banh mi trail. It was obvious. We had found our inspiration. After endless sampling and recipe tweaks, it was born...the perfect banh mi!</p>
           {close}
         </article>
@@ -28,7 +28,7 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Food</h2>
           <span className="image main"><img src={unitDesign} alt="" /></span>
-          <p>Peace of the East specialise in Southeast Asian food so we know how important it is to use both the finest and freshest of ingredients. There is literally no other way to replicate such depth and intricate cooking, without this attention to detail. We aim to cater for a diverse range of tastes and dietary requirements, by allowing everybody to choose what accompanies their main, offering healthier options for those heavy heads!</p>
+          <p>Peace of the East specialise in Southeast Asian street food, with other flavours from all across the east, so we know how important it is to use both the finest and freshest of ingredients. There is literally no other way to replicate such depth and intricate cooking, without this attention to detail. We aim to cater for a diverse range of tastes and dietary requirements, by allowing everybody to choose what accompanies their main, offering healthier options for those heavy heads!</p>
           <p>We are passionate about the environment as well as our food. Our impact is at the forefront of our minds when it comes to catering. All our food is both ethically and sustainably sourced, from local suppliers where possible. We also strive to be plastic-free; all our packaging is made from biodegradable material. Packaging  from our suppliers is recycled where possible, as is our cooking oil. </p>
           {close}
         </article>
