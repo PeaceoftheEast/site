@@ -11,16 +11,8 @@ const Footer = (props) => (
         <div className="ncass">
           <img src={ncass}/>
         </div>
+    </footer> 
 
-const Footer = (props) => (
-    <footer id="footer" style={props.timeout ? {display: 'none'}  : {}}>
-       <MediaIcons/>
-          <div classname="ncass">
-            <img src={ncass}/>
-            </div>
-    </footer>
-        
-    </footer>
 )
 
 Footer.propTypes = {
