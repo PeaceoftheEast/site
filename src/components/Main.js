@@ -5,7 +5,7 @@ import MediaIcons from './MediaIcons';
 import Gallery from './Gallery';
 
 import pic01 from '../images/pic01.jpg'
-import unitDesign from '../images/unit-design-2.png'
+import unitDesign from '../images/tofu-banhmi.png'
 import viethead from '../images/viet-face.png'
 
 class Main extends React.Component {
