@@ -5,7 +5,7 @@ import MediaIcons from './MediaIcons';
 import Gallery from './Gallery';
 
 import pic01 from '../images/pic01.jpg'
-import unitDesign from '../images/tofu-banhmi.png'
+import tofupic from '../images/tofu-banhmi.png'
 import viethead from '../images/viet-face.png'
 
 class Main extends React.Component {
@@ -27,7 +27,7 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Food</h2>
-          <span className="image main"><img src={unitDesign} alt="" /></span>
+          <span className="image main"><img src={tofupic} alt="" /></span>
           <p>Peace of the East specialise in Southeast Asian street food, with flavours inspired from all across the east, so we know how important it is to use both the finest and freshest of ingredients. There is literally no other way to replicate such depth and intricate cooking, without this attention to detail. We aim to cater for a diverse range of tastes and dietary requirements, by allowing everybody to choose what accompanies their main, offering healthier options for those heavy heads!</p>
           <p>We are passionate about the environment as well as our food. Our impact is at the forefront of our minds when it comes to catering. All our food is both ethically and sustainably sourced, from local suppliers where possible. We also strive to be plastic-free; all our packaging is made from biodegradable material. Packaging  from our suppliers is recycled where possible, as is our cooking oil. </p>
           {close}
