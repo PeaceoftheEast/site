@@ -2,15 +2,19 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import MediaIcons from './MediaIcons';
+import hygiene from '../images/Hygiene-Rating.png'
 import ncass from '../images/ncass.png'
+
 
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-      <MediaIcons/>
-        <div className="ncass">
+        <div className="certificates">
           <img src={ncass}/>
+         <img src={hygiene}/>
         </div>
-    </footer> 
+        <MediaIcons/>
+
+    </footer>
 
 )
 

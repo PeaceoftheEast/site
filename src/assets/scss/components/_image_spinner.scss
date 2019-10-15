@@ -9,6 +9,15 @@
   grid-template-rows: 40% auto 40%;
   grid-template-columns: 5% auto 5%;
 
+  .icon {
+    font-size: 60px;
+    cursor: pointer;
+
+    &:hover {
+      color: darkorange;
+    }
+  }
+
   .left-arrow {
     grid-area: nav-left;
     display: flex;

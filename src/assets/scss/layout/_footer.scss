@@ -19,11 +19,13 @@
 		margin-top: 2rem;
 		text-align: center;
 
-		.ncass {
+		.certificates {
+			display: flex;
 			align-self: center;
-			width: 150px;
+			width: 300px;
 			img {
 				width: 100%;
+				margin: 5px;
 			}
 		}
 

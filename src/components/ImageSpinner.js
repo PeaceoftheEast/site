@@ -41,7 +41,7 @@ class ImageSpinner extends React.Component {
     return (
       <div className="image-spinner">
         <NavArrow style="left-arrow" iconName="icon fa-caret-left" onClick={() => this.handleLeftNav()}/>
-        <div className="image"><img src={this.props.images[this.state.imageIndex]}/></div>
+        <div className="image" onClick={() => this.handleRightNav()}><img src={this.props.images[this.state.imageIndex]}/></div>
         <NavArrow style="right-arrow" iconName="icon fa-caret-right" onClick={() => this.handleRightNav()}/>
       </div>)
   }
