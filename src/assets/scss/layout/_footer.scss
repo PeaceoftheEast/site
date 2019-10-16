@@ -22,9 +22,9 @@
 		.certificates {
 			display: flex;
 			align-self: center;
-			width: 100%;
 			img {
-				width: 100%;
+				width: 50%;
+				max-width: 150px;
 				margin: 5px;
 			}
 		}
