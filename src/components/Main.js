@@ -19,9 +19,10 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About Us</h2>
           <span className="image main"><img src={viethead} alt="" /></span>
-          <p>Lifelong friends, myself and Will (a.k.a. Snipadvisor - we'll get to that!) have been fellow festival goers and keen foodies for as long as we can remember. </p>
-          <p>During much-needed breaks from getting down to our favourite beats, the hunt for the perfect treat to 'refuel'. Party goers turned food critics, we scour the whole festival site until we find the 'perfect munch'. Sitting down to sample the finest traders have to offer, we'd reminisce about our past favourites, whilst flicking through the pictures of the traders we loved for their food, or just because they look so damn cool!</p>
-          <p>Festival season DONE- that's it for another year- I don't think so! It's time to recreate and reinvent our favourites. Discussions about what the food scene is missing would go long into the night. After a lengthy trip to Vietnam, Will, now known as the Snipadvisor recounted in awesome detail, his time there on the banh mi trail. It was obvious. We had found our inspiration. After endless sampling and recipe tweaks, it was born...the perfect banh mi!</p>
+          <p>CATER-INK have been providing a professional service at a range of events of different sizes. </p>
+          <p>We offer a fully-flexible menu for specific needs and requirements. Of course using both fresh and high quality ingredients. </p>
+          <p>Not forgetting of course our fun and friendly staff who come with free big smiles!</p>
+          <p>Our experience within the catering industry, event catering and global food travel over the years, has allowed us to continually surpass expectation and satisfy the masses.  </p>
           {close}
         </article>
 
