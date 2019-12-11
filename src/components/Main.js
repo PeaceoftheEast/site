@@ -20,8 +20,7 @@ class Main extends React.Component {
           <h2 className="major">About Us</h2>
           <span className="image main"><img src={viethead} alt="" /></span>
           <p>CATER-INK have been providing a professional service at a range of events of different sizes. </p>
-          <p>We offer a fully-flexible menu for specific needs and requirements. Of course using both fresh and high quality ingredients. </p>
-          <p>Not forgetting of course our fun and friendly staff who come with free big smiles!</p>
+          <p>We offer a fully-flexible menu for specific needs and requirements. Of course using both fresh and high quality ingredients. Not forgetting of course our fun and friendly staff who come with free big smiles!</p>
           <p>Our experience within the catering industry, event catering and global food travel over the years, has allowed us to continually surpass expectation and satisfy the masses.  </p>
           {close}
         </article>
