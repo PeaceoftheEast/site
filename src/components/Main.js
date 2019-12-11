@@ -22,14 +22,17 @@ class Main extends React.Component {
           <p>CATER-INK have been providing a professional service at a range of events of different sizes. </p>
           <p>We offer a fully-flexible menu for specific needs and requirements. Of course using both fresh and high quality ingredients. Not forgetting of course our fun and friendly staff who come with free big smiles!</p>
           <p>Our experience within the catering industry, event catering and global food travel over the years, has allowed us to continually surpass expectation and satisfy the masses.  </p>
+          <p>We work alongside our local environmental group, Climate Action Ilkley, and we're continually looking to improve our sustainability. Through using local suppliers, reducing our packaging to a minimum and recycling all our cooking oil.</p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Food</h2>
           <span className="image main"><img src={tofupic} alt="" /></span>
-          <p>Peace of the East specialise in Southeast Asian street food, with flavours inspired from all across the east, so we know how important it is to use both the finest and freshest of ingredients. There is literally no other way to replicate such depth and intricate cooking, without this attention to detail. We aim to cater for a diverse range of tastes and dietary requirements, by allowing everybody to choose what accompanies their main, offering healthier options for those heavy heads!</p>
-          <p>We are passionate about the environment as well as our food. Our impact is at the forefront of our minds when it comes to catering. All our food is both ethically and sustainably sourced, from local suppliers where possible. We also strive to be plastic-free; all our packaging is made from biodegradable material. Packaging  from our suppliers is recycled where possible, as is our cooking oil. </p>
+          <p>Our Peace of the East unit serves up the best Banh mi this side of Saigon! </p>
+          <p>If you don't know about the iconic street food of Vietnam think hot Vietnamese sub crammed full with fresh salad, homemade sauces and either Honey-soy Grilled Chicken, Tempura Battered Prawn, Salt and Pepper Tofu (Ve) and new for 2020 ...BBQ Jackfruit (Vegan Pulled Pork) (Ve). </p>
+          <p>Our Banh mi's are the perfect fuel you can hold while carrying on the party!</p>
+          <p>All our ingredients are of course fresh and of the highest quality. </p>
           {close}
         </article>
 
