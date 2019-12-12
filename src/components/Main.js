@@ -28,7 +28,7 @@ class Main extends React.Component {
             </div>
           <p></p>  
           <p>Our experience within the catering industry, event catering and global food travel over the years, has allowed us to continually surpass expectation and satisfy the masses.</p>
-          <p>Our two passions; festivals and food meant that we were oustanded after travelling around Vietnam, and discovering the incredibly delicous street food, that it was absent from the UK festival scene. Wasting no time Peace of the East was born... here to feed the masses and to do it in style!</p>
+          <p>Our two passions; festivals and food meant that we were amazed after travelling around Vietnam, and discovering the incredibly delicous street food, that it was absent from the UK festival scene. Wasting no time Peace of the East was born... here to feed the masses and to do it in style!</p>
           {close}
         </article>
 
