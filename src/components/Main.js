@@ -36,7 +36,7 @@ class Main extends React.Component {
           <h2 className="major">Food</h2>
           <span className="image main"><img src={tofupic} alt="" /></span>
           <p>Our Peace of the East unit serves up the best Banh mi this side of Saigon!</p>
-          <p>If you don't know about the iconic street food of Vietnam think hot Vietnamese sub crammed full with fresh salad, homemade sauces and either Honey-soy Grilled Chicken, Tempura Battered Prawn, Salt and Pepper Tofu (Ve) and new for 2020 ...BBQ Jackfruit (Vegan Pulled Pork) (Ve).</p>
+          <p>If you don't know about the iconic street food of Vietnam think hot Vietnamese sub crammed full with fresh salad, homemade sauces and either Honey-Soy Grilled Chicken, Tempura Battered Prawn, Salt and Pepper Tofu (Ve) and new for 2020 ...BBQ Jackfruit (Vegan Pulled Pork) (Ve).</p>
           <p>Our Banh mi's are the perfect fuel you can hold while carrying on the party!</p>
           <p>All our ingredients are of course fresh and of the highest quality. Not forgetting of course our fun and friendly staff who come with free big smiles!</p>
           <p>We also work alongside our local environmental group, Climate Action Ilkley, and we're continually looking to improve our sustainability. Through using local suppliers, reducing our packaging to a minimum and recycling all our cooking oil.</p>
