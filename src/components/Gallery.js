@@ -21,7 +21,7 @@ import slide10 from '../images/gallery/slide-10.png' ;
 import slide11 from '../images/gallery/slide-11.png' ;
 
 const Gallery = () => {
-  let images = [slide1, slide2, slide3, slide4, slide5, slide6,slide7,slide8,slide9,slide10,slide11];
+  let images = [slide1, slide2, slide3, slide8, slide5, slide6,slide7,slide4,slide9,slide10,slide11];
   return (
     <div>
       <h2 className="major">Gallery</h2>
