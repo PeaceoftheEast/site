@@ -14,14 +14,14 @@ import slide3 from '../images/gallery/slide-3.png' ;
 import slide4 from '../images/gallery/slide-4.png' ;
 import slide5 from '../images/gallery/slide-5.png' ;
 import slide6 from '../images/gallery/slide-6.png' ;
-import slide7 from '../images/gallery/slide-7.png';  
+import slide7 from '../images/gallery/slide-7.png' ;  
 import slide8 from '../images/gallery/slide-8.png' ;
 import slide9 from '../images/gallery/slide-9.png' ;
 import slide10 from '../images/gallery/slide-10.png' ;
 import slide11 from '../images/gallery/slide-11.png' ;
 
 const Gallery = () => {
-  let images = [slide1, slide2, slide3, slide8, slide5, slide6,slide7,slide4,slide9,slide10,slide11];
+  let images = [slide1, slide2, slide3, slide8, slide5, slide6, slide7, slide4, slide9, slide10, slide11];
   return (
     <div>
       <h2 className="major">Gallery</h2>
