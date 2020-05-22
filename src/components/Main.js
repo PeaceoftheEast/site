@@ -5,7 +5,7 @@ import MediaIcons from './MediaIcons';
 import Gallery from './Gallery';
 
 import pic01 from '../images/pic01.jpg'
-import tofupic from '../images/tofu-banhmi.png'
+import banhpic from '../images/food_header_image.png'
 import viethead from '../images/frontage_4.jpeg'
 import hermes from '../images/hermes.png'
 import triplePoint from '../images/triple-point.png'
@@ -34,7 +34,7 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Food</h2>
-          <span className="image main"><img src={tofupic} alt="" /></span>
+          <span className="image main"><img src={banhpic} alt="" /></span>
           <p>Our Peace of the East unit serves up the best Banh mi this side of Saigon!</p>
           <p>If you don't know about the iconic street food of Vietnam think hot Vietnamese sub crammed full with fresh salad, homemade sauces and either Honey-Soy Grilled Chicken, Tempura Battered Prawn, Salt and Pepper Tofu (Ve) and new for 2020 ...BBQ Jackfruit (Vegan Pulled Pork) (Ve).</p>
           <p>Our Banh mi's are the perfect fuel you can hold while carrying on the party!</p>
