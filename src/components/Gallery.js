@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import pic03 from '../images/pic03.jpg'
-import banhMi from '../images/frontage_1.jpg';
+import banhMi from '../images/frontage_1_crop.jpg';
 import ImageSpinner from './ImageSpinner';
 import prawn from '../images/gallery/prawnie.jpg';
 import lemongrassFries from '../images/gallery/lemongrass-chicken-fries.jpg';

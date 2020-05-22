@@ -6,7 +6,7 @@ import Gallery from './Gallery';
 
 import pic01 from '../images/pic01.jpg'
 import banhpic from '../images/food_header_image.png'
-import viethead from '../images/frontage_4_crop.jpg'
+import viethead from '../images/frontage_4.jpeg'
 import hermes from '../images/hermes.png'
 import triplePoint from '../images/triple-point.png'
 
