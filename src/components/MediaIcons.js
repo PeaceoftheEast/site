@@ -8,7 +8,7 @@ const MediaIcons = () => {
     <ul className="icons">
       {/*<li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>*/}
       <li><a href="https://www.facebook.com/Peace-of-the-East-373022500163809/" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-      <li><a href="https://www.instagram.com/peaceoftheeast/" target="_blank" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+      <li><a href="https://www.instagram.com/peaceoftheeast/"   className="icon fa-instagram"><span className="label">Instagram</span></a></li>
     </ul>
   )
 };
